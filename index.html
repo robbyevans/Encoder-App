@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encoder & Decoder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>Encorder</h3>
+      <textarea
+        id="inputText"
+        placeholder="Enter your message here..."
+      ></textarea>
+      <div class="buttons">
+        <button id="encodeBtn">Encode</button>
+        <button id="decodeBtn">Decode</button>
+      </div>
+      <div class="outputWrapper">
+        <textarea
+          id="outputText"
+          placeholder="Encoded/Decoded message will appear here..."
+          readonly
+        ></textarea>
+        <span id="copyIcon" title="Copy to Clipboard">📋</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
